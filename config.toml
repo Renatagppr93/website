@@ -1,0 +1,94 @@
+baseURL = "http://EagleIO.org/"
+languageCode = "en-us"
+title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.nav]]
+name    = "About"
+url     = "about"
+weight  = 2
+[[menu.nav]]
+name    = "Services"
+url     = "services"
+weight  = 3
+[[menu.nav]]
+name    = "Projects"
+url     = "projects"
+weight  = 4
+[[menu.nav]]
+name    = "Blog"
+url     = "blog"
+weight  = 5
+[[menu.nav]]
+name    = "Contact"
+url     = "contact"
+weight  = 6
+
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/eagleio2.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Airspace Hugo theme"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/slider.jpg"
+heading = "EAGLE I/O Consulting"
+description = "STUDENT LED CONSULTING GROUP"
+# button 1
+btn     = true
+btnText = "Manual"
+btnURL  = "https://bookdown.org/garciaprier1/manual/"
+
+
+# flip text
+[[params.banner.flipText]]
+title   = "STUDENT"
+[[params.banner.flipText]]
+title   = "CONSULTANT"
+[[params.banner.flipText]]
+title   = "INNOVATOR"
+
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "ABOUT US"
+content = "We are a student led consulting group composed of graduate students completing their masters degree in IO Psychology at Montclair State University."
+image   = "images/about/about.jpg"
+
+# Call to Action
+[params.cta]
+enable  = true
+title   = "SO WHAT YOU THINK ?"
+content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+btnText = "Contact with me"
+btnURL  = "/contact"
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable  = true
+title   = "Latest Works"
+subtitle= " ."
+
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-facebook"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-instagram"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-linkedin"
+url = "#"
